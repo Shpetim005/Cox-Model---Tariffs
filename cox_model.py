@@ -75,7 +75,7 @@ st.markdown("- $X_3$ = Durée moyenne des mesures (`mean_duration_months`)")
 
 
 # --- DONNEES REELLES ---
-data = pd.read_csv(r"C:\Users\Shpet\Desktop\Data\gdp\df_episodes.csv")
+data = pd.read_csv(r"df_episodes.csv")
 
 # --- MODELE DE COX ---
 cph = CoxPHFitter()
